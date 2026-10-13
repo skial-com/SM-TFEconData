@@ -358,8 +358,7 @@ public void OnPluginStart() {
 
 	g_imapAttrIsNetworked = new IntMap();
 	
-	CreateConVar("tfecondata_version", PLUGIN_VERSION,
-			"Version for TF2 Econ Data, to gauge popularity.", FCVAR_NOTIFY);
+	//CreateConVar("tfecondata_version", PLUGIN_VERSION, "Version for TF2 Econ Data, to gauge popularity.", FCVAR_NOTIFY);
 }
 
 int Native_TranslateWeaponEntForClass(Handle hPlugin, int nParams) {
